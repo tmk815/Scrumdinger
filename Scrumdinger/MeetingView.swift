@@ -26,6 +26,9 @@ struct MeetingView: View {
             }
             Circle()
                 .strokeBorder(lineWidth: 24, antialiased: /*@START_MENU_TOKEN@*/true/*@END_MENU_TOKEN@*/)
+            HStack{
+                Text("Speaker 1 of 3")
+            }
         }
     }
 }
