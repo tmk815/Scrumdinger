@@ -28,6 +28,9 @@ struct MeetingView: View {
                 .strokeBorder(lineWidth: 24, antialiased: /*@START_MENU_TOKEN@*/true/*@END_MENU_TOKEN@*/)
             HStack{
                 Text("Speaker 1 of 3")
+                Button(action: /*@START_MENU_TOKEN@*/{}/*@END_MENU_TOKEN@*/){
+                    Image(systemName: "forward.fill")
+                }
             }
         }
     }
