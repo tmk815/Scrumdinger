@@ -10,7 +10,8 @@ import SwiftUI
 struct CardView: View {
     let scrum: DailyScrum
     var body: some View {
-        Text("Hello, World!")
+        Text(scrum.title)
+            .font(.headline)
     }
 }
 
